@@ -1,0 +1,19 @@
+{
+  "name": "nodemovies",
+  "version": "1.0.0",
+  "description": "API de exercício do explorer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+  "author": "Rafael",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
